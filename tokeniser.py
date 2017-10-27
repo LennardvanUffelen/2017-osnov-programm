@@ -15,8 +15,10 @@ for x in range (0, max):
 		senindex = 0
 		senmax = len(sensplit)
 		for x in range (0, senmax):
+			sensplit[senindex] = sensplit[senindex].strip()
 			if sensplit[senindex].strip() == '':
 				senindex = senindex + 1
 			else:
 				print(senindex + 1, '\t', sensplit[senindex], '\t_\t_\t_\t_\t_\t_\t_\t_\t_')
 				senindex = senindex + 1
+	print()

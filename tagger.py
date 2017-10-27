@@ -51,4 +51,4 @@ for line in input:
 		line[3] = frequent_tag
 	
 	# print out the tagged line
-print('\t'.join(line))
+	print('\t'.join(line))
